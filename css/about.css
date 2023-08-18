@@ -1,0 +1,267 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.08rem;    
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: #002F4A;
+    text-align: left;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding: 0 0 8px 0;
+}
+
+h3 {
+    color: #002F4A;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03rem;
+    margin: 0;
+    padding: 0 0 8px 0;
+}
+
+.primary-button {
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: #00A6FB;
+    color: #FFF;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.05625rem;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    align-self: stretch;
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-tag {
+    color: #002F4A;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.05625rem;
+    text-transform: uppercase;
+    color: #002F4A;
+    margin: 0;
+}
+
+
+/* Nav bar */
+
+nav {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    padding: 1.5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002F4A;
+    position: fixed;
+    top: 0px;
+}
+
+nav .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-items li {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav-button {
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A6FB;
+    border-radius: 0.25rem;
+}
+
+/* About Section */
+
+.about-section {
+    display: flex;
+    width: 100%;
+    padding: 12rem 10rem 6rem 10rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: #F5F5F5;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 70rem;
+    gap: 5rem;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.about-content p {
+    color: #002F4A;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: 0.02rem;
+}
+
+.button-container {
+    padding-top: 3rem;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 11.25rem;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #002F4A;
+    gap: 3rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.logo-container p {
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0175rem;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 4.5rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+#address {
+    max-width: 17.9rem;
+}
+
+.contact-header {
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-value {
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+    margin: 0;
+}
